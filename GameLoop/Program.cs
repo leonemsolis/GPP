@@ -1,3 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using GameLoop;
 
-Console.WriteLine("Hello, World!");
+internal static class Program
+{
+    private static void Main(string[] args)
+    {
+        new FixedTimeStamp().RunGameLoop();
+    }
+}
